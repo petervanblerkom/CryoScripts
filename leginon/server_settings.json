@@ -1,0 +1,25 @@
+{
+    "db_info":
+    {
+        "host": "HOSTNAME",
+        "user": "LEGINON_DB_USERNAME",
+        "passwd": "LEGINON_DB_PASSWD",
+        "database": "leginondb"
+    },
+    "storage_info":
+    
+    {
+        "drive1" : 
+        {
+            "frames":"/drive1/frames/SESSION_ID",
+            "appion":"/drive1/appion/SESSION_ID",
+            "leginon":"/drive1/leginon/SESSION_ID"
+        },
+        "drive2" : 
+        {
+            "frames":"/drive2/SESSION_ID/frames/SESSION_ID",
+            "appion":"/drive2/SESSION_ID/appion/SESSION_ID",
+            "leginon":"/drive2/SESSION_ID/leginon/SESSION_ID"
+        }
+    }
+}
